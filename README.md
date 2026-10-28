@@ -2,11 +2,12 @@
 
 ![](images/Screenshot.png)
 
-Adds **Left / Top / Right / Bottom** to the Windows 11 taskbar's own right-click menu, so you can
-move the taskbar to any edge of the screen in two clicks.
+Move the Windows 11 taskbar to any edge of the screen: pick **Left**, **Top**, **Right** or
+**Bottom** from its right-click menu, or drag it with the mouse.
 
-Right-click an empty spot on the taskbar, and below *Taskbar settings* you'll see four new entries,
-each with an icon. Pick one and the taskbar location setting is changed.
+- **From the menu:** right-click an empty spot on the taskbar. Below *Taskbar settings* you'll see
+  four new entries, each with an icon. Pick one and the taskbar moves to that edge.
+- **With the mouse:** grab an empty spot on the taskbar and drag it to any edge of the screen.
 
 ## Requirements
 
