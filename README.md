@@ -9,6 +9,12 @@ Move the Windows 11 taskbar to any edge of the screen: pick **Left**, **Top**, *
   four new entries, each with an icon. Pick one and the taskbar moves to that edge.
 - **With the mouse:** grab an empty spot on the taskbar and drag it to any edge of the screen.
 
+> [!IMPORTANT]
+> This app does not unlock any hidden Windows 11 features or feature flags. Dragging the taskbar isn't a built-in or hidden Windows 11 mechanism either - the app provides it. Windows 11 doesn't offer a way to add items to the taskbar's context menu, so the app adds the four entries to it. Clicking an entry writes the standard taskbar location value in the registry. Nothing else in the system is changed, and the app doesn't need to modify any system files to work properly.
+
+> [!WARNING]
+> The app depends on how Explorer works internally, and a Windows update may change that. If the entries stop showing up or you can no longer drag the taskbar after an update, please open an issue.
+
 ## Requirements
 
 ✅ Windows 11 **26H2** (build **26300**) or newer  
@@ -63,17 +69,6 @@ Explorer windows close), and the package is removed along with all its files.
 
 You can also uninstall it from *Settings → Apps → Installed apps*. Explorer doesn't restart in that
 case, so a leftover file may remain in the app's data folder until you sign out or restart.
-
-## How it works
-
-Windows 11 doesn't offer a way to add items to the taskbar's context menu, so the app adds the four
-entries to it. Clicking an entry writes the standard taskbar location value in the registry
-(`HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarLocation`). Nothing else
-in the system is changed.
-
-> [!WARNING]
-> The app depends on how Explorer works internally, and a Windows update may change that.
-> If the entries stop showing up after an update, please open an issue.
 
 ## Feedback
 
